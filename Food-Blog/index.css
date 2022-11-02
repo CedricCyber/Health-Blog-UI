@@ -90,6 +90,10 @@ header {
 /* Layout */
 /* //////////////////// */
 
+.featured-article {
+  padding-top: 2em;
+}
+
 main {
   width: 70%;
 }
@@ -145,10 +149,6 @@ button,
 a,
 button {
   color: #e81e79;
-}
-
- {
-  color: #28225b;
 }
 
 .title,
@@ -219,7 +219,6 @@ carousel {
     width: 400px;
     height: 300px;
   }
-  .
 }
 
 /* //////////////////// */
@@ -236,9 +235,9 @@ carousel {
 }
 
 @media (max-width: 1000px) {
-    .button-container {
-        bottom: 25vmax;
-    }
+  .button-container {
+    bottom: 25vmax;
+  }
 }
 
 /* #prev-button {
